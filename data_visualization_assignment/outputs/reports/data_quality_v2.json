@@ -1,0 +1,253 @@
+{
+  "1-01_AlgorithmBenchmark_matplotlib.csv": {
+    "rows": 224,
+    "columns": [
+      "run_id",
+      "algorithm",
+      "input_size",
+      "repeat",
+      "runtime_ms",
+      "memory_mb",
+      "comparisons"
+    ],
+    "types": {
+      "run_id": "object",
+      "algorithm": "object",
+      "input_size": "int64",
+      "repeat": "int64",
+      "runtime_ms": "float64",
+      "memory_mb": "float64",
+      "comparisons": "int64"
+    },
+    "missing": {
+      "run_id": 0,
+      "algorithm": 0,
+      "input_size": 0,
+      "repeat": 0,
+      "runtime_ms": 1,
+      "memory_mb": 0,
+      "comparisons": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_ids": 0,
+    "numeric_ranges": {
+      "input_size": [
+        100.0,
+        100000.0
+      ],
+      "repeat": [
+        1.0,
+        8.0
+      ],
+      "runtime_ms": [
+        0.0,
+        207.0
+      ],
+      "memory_mb": [
+        16.92,
+        420.0
+      ],
+      "comparisons": [
+        -10.0,
+        1590525.0
+      ]
+    },
+    "negative_numeric_counts": {
+      "input_size": 0,
+      "repeat": 0,
+      "runtime_ms": 0,
+      "memory_mb": 0,
+      "comparisons": 1
+    },
+    "categories": {
+      "algorithm": [
+        "Binary_Search",
+        "Linear_Search",
+        "Merge_Sort",
+        "Quick_Sort"
+      ]
+    }
+  },
+  "2-02_SoftwareQuality_seaborn.csv": {
+    "rows": 360,
+    "columns": [
+      "module_id",
+      "language",
+      "module_type",
+      "LOC",
+      "code_churn_lines",
+      "cyclomatic_complexity",
+      "test_coverage_pct",
+      "defect_count",
+      "review_time_hours",
+      "contributors"
+    ],
+    "types": {
+      "module_id": "object",
+      "language": "object",
+      "module_type": "object",
+      "LOC": "int64",
+      "code_churn_lines": "int64",
+      "cyclomatic_complexity": "float64",
+      "test_coverage_pct": "float64",
+      "defect_count": "int64",
+      "review_time_hours": "float64",
+      "contributors": "int64"
+    },
+    "missing": {
+      "module_id": 0,
+      "language": 0,
+      "module_type": 0,
+      "LOC": 0,
+      "code_churn_lines": 0,
+      "cyclomatic_complexity": 0,
+      "test_coverage_pct": 0,
+      "defect_count": 0,
+      "review_time_hours": 0,
+      "contributors": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_ids": 0,
+    "numeric_ranges": {
+      "LOC": [
+        284.0,
+        6228.0
+      ],
+      "code_churn_lines": [
+        14.0,
+        2759.0
+      ],
+      "cyclomatic_complexity": [
+        1.0,
+        15.53
+      ],
+      "test_coverage_pct": [
+        71.0,
+        100.0
+      ],
+      "defect_count": [
+        0.0,
+        4.0
+      ],
+      "review_time_hours": [
+        0.2,
+        4.51
+      ],
+      "contributors": [
+        1.0,
+        12.0
+      ]
+    },
+    "negative_numeric_counts": {
+      "LOC": 0,
+      "code_churn_lines": 0,
+      "cyclomatic_complexity": 0,
+      "test_coverage_pct": 0,
+      "defect_count": 0,
+      "review_time_hours": 0,
+      "contributors": 0
+    },
+    "categories": {
+      "language": [
+        "C++",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "module_type": [
+        "API",
+        "Core",
+        "Data",
+        "UI",
+        "Utility"
+      ]
+    }
+  },
+  "3-03_WebServiceLogs_plotly.csv": {
+    "rows": 2500,
+    "columns": [
+      "request_id",
+      "timestamp",
+      "endpoint",
+      "method",
+      "status_code",
+      "latency_ms",
+      "response_kb",
+      "region",
+      "device",
+      "cache_hit"
+    ],
+    "types": {
+      "request_id": "object",
+      "timestamp": "object",
+      "endpoint": "object",
+      "method": "object",
+      "status_code": "int64",
+      "latency_ms": "float64",
+      "response_kb": "float64",
+      "region": "object",
+      "device": "object",
+      "cache_hit": "bool"
+    },
+    "missing": {
+      "request_id": 0,
+      "timestamp": 0,
+      "endpoint": 0,
+      "method": 0,
+      "status_code": 0,
+      "latency_ms": 0,
+      "response_kb": 0,
+      "region": 0,
+      "device": 0,
+      "cache_hit": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_ids": 0,
+    "numeric_ranges": {
+      "status_code": [
+        200.0,
+        503.0
+      ],
+      "latency_ms": [
+        20.4,
+        1390.3
+      ],
+      "response_kb": [
+        4.4,
+        2915.4
+      ]
+    },
+    "negative_numeric_counts": {
+      "status_code": 0,
+      "latency_ms": 0,
+      "response_kb": 0
+    },
+    "categories": {
+      "endpoint": [
+        "/api/items",
+        "/api/order",
+        "/download",
+        "/login",
+        "/profile",
+        "/search"
+      ],
+      "method": [
+        "DELETE",
+        "GET",
+        "POST",
+        "PUT"
+      ],
+      "region": [
+        "Japan",
+        "Singapore",
+        "Taiwan",
+        "US-West"
+      ],
+      "device": [
+        "Desktop",
+        "Mobile",
+        "Tablet"
+      ]
+    }
+  }
+}
