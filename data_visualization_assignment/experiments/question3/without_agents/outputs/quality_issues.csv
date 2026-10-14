@@ -1,0 +1,18 @@
+run_id,metric,value,issue,action
+RUN0024,runtime_ms,,missing,Exclude this metric only; no imputation
+RUN0142,runtime_ms,0.0,invalid nonpositive measurement,Exclude this metric only; retain other measurements
+RUN0193,comparisons,-10.0,negative count,Exclude this metric only; retain other measurements
+RUN0004,memory_mb,17.42,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0005,memory_mb,18.72,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0057,memory_mb,18.34,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0059,memory_mb,17.55,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0090,memory_mb,420.0,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0104,memory_mb,18.85,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0109,memory_mb,18.83,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0174,memory_mb,21.42,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0198,memory_mb,21.37,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0199,memory_mb,19.22,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0200,memory_mb,19.34,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0203,memory_mb,19.5,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0204,memory_mb,22.07,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately
+RUN0223,memory_mb,25.14,outside within-group 1.5 IQR fences,Retain; use median and IQR; inspect separately

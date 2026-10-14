@@ -1,0 +1,22 @@
+[
+  {
+    "title": "問題 3｜第一次：無規範・耗時趨勢",
+    "path": "experiments/question3/without_agents/outputs/01_runtime.png",
+    "note": "第一次由獨立 Agent 自行選擇中位數、IQR 與中文標籤。"
+  },
+  {
+    "title": "問題 3｜第二次：有規範・耗時趨勢",
+    "path": "experiments/question3/with_agents/outputs/figures/runtime_trends_v1.png",
+    "note": "第二次自行選擇英文圖表，報告為繁體中文；多系列另用形狀與線型區分。"
+  },
+  {
+    "title": "問題 3｜第一次：無規範・記憶體分析",
+    "path": "experiments/question3/without_agents/outputs/03_memory.png",
+    "note": "組內 1.5×IQR 標記 14 筆候選，主要圖保留所有記憶體值。"
+  },
+  {
+    "title": "問題 3｜第二次：有規範・記憶體分析",
+    "path": "experiments/question3/with_agents/outputs/figures/memory_trends_v1.png",
+    "note": "組內中位數 + 10×MAD 標記 1 筆極端值，主要圖同樣保留全部資料。"
+  }
+]

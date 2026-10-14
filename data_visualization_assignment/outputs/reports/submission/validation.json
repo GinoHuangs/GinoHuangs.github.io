@@ -1,0 +1,21 @@
+{
+  "pdf_pages": 22,
+  "all_pages_have_extractable_text": true,
+  "visually_reviewed_pdf_pages": [
+    1,
+    13,
+    14
+  ],
+  "pngs_reviewed": {
+    "without_agents": 4,
+    "with_agents": 3
+  },
+  "name_student_id_group": "left for group to fill",
+  "pdf_includes": [
+    "question1",
+    "question2",
+    "question3",
+    "AGENTS.md appendix"
+  ],
+  "not_included": "question4 handwritten A4"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "input_sha256": "8285b2903f318ef452e7706b627a9f4bf6bc21cd6e72ba858c14c57d92a2136a",
+  "input_unchanged": true,
+  "raw_rows": 224,
+  "groups": 28,
+  "summary_rows": 84,
+  "valid_counts": {
+    "runtime_ms": 222,
+    "memory_mb": 224,
+    "comparisons": 223
+  },
+  "issue_count": 17,
+  "memory_flag_run_ids": [
+    "RUN0004",
+    "RUN0005",
+    "RUN0057",
+    "RUN0059",
+    "RUN0090",
+    "RUN0104",
+    "RUN0109",
+    "RUN0174",
+    "RUN0198",
+    "RUN0199",
+    "RUN0200",
+    "RUN0203",
+    "RUN0204",
+    "RUN0223"
+  ],
+  "runtime_floor_count": 18,
+  "charts_verified": [
+    "01_runtime",
+    "02_comparisons",
+    "03_memory",
+    "04_runtime_scaling"
+  ],
+  "embedded_html_images": 4,
+  "font": "Noto Sans CJK JP",
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "files": [
+    "01_runtime.png",
+    "01_runtime.svg",
+    "02_comparisons.png",
+    "02_comparisons.svg",
+    "03_memory.png",
+    "03_memory.svg",
+    "04_runtime_scaling.png",
+    "04_runtime_scaling.svg",
+    "analysis_data.csv",
+    "analysis_report.html",
+    "analysis_report.md",
+    "normalized_comparisons.csv",
+    "quality_issues.csv",
+    "runtime_floor_counts.csv",
+    "runtime_scaling.csv",
+    "summary.csv"
+  ]
+}
