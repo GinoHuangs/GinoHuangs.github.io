@@ -1,0 +1,101 @@
+{
+  "source_sha256": "8285b2903f318ef452e7706b627a9f4bf6bc21cd6e72ba858c14c57d92a2136a",
+  "rows": 224,
+  "columns": [
+    "run_id",
+    "algorithm",
+    "input_size",
+    "repeat",
+    "runtime_ms",
+    "memory_mb",
+    "comparisons"
+  ],
+  "original_dtypes": {
+    "run_id": "object",
+    "algorithm": "object",
+    "input_size": "int64",
+    "repeat": "int64",
+    "runtime_ms": "float64",
+    "memory_mb": "float64",
+    "comparisons": "int64"
+  },
+  "missing_counts": {
+    "run_id": 0,
+    "algorithm": 0,
+    "input_size": 0,
+    "repeat": 0,
+    "runtime_ms": 1,
+    "memory_mb": 0,
+    "comparisons": 0
+  },
+  "conversion_failures": {
+    "input_size": 0,
+    "repeat": 0,
+    "runtime_ms": 0,
+    "memory_mb": 0,
+    "comparisons": 0
+  },
+  "exact_duplicate_rows": 0,
+  "duplicate_run_id": 0,
+  "duplicate_measurement_keys": 0,
+  "algorithms": [
+    "Binary_Search",
+    "Linear_Search",
+    "Merge_Sort",
+    "Quick_Sort"
+  ],
+  "input_sizes": [
+    100,
+    500,
+    1000,
+    5000,
+    10000,
+    50000,
+    100000
+  ],
+  "repeats": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "numeric_ranges": {
+    "input_size": {
+      "min": 100.0,
+      "max": 100000.0
+    },
+    "repeat": {
+      "min": 1.0,
+      "max": 8.0
+    },
+    "runtime_ms": {
+      "min": 0.0,
+      "max": 207.0
+    },
+    "memory_mb": {
+      "min": 16.92,
+      "max": 420.0
+    },
+    "comparisons": {
+      "min": -10.0,
+      "max": 1590525.0
+    }
+  },
+  "flag_counts": {
+    "runtime_missing": 1,
+    "runtime_nonpositive": 1,
+    "comparisons_negative": 1,
+    "runtime_at_005": 18,
+    "memory_extreme_flag": 1
+  },
+  "invalid_memory_count": 0,
+  "valid_metric_counts": {
+    "runtime_valid_ms": 222,
+    "memory_valid_mb": 224,
+    "comparisons_valid": 223
+  }
+}

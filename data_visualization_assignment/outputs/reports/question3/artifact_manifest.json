@@ -1,0 +1,206 @@
+[
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/README.md",
+    "bytes": 944,
+    "sha256": "d89bad1522325a52a322f502480aa016e5db1b29623b11244fffd641860ccc4e"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/analyze.py",
+    "bytes": 22591,
+    "sha256": "7acef5e4a1f7f650aac4b38cf934dc8799cab741cd89d720f5a4eea6703bc669"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/data.csv",
+    "bytes": 10328,
+    "sha256": "8285b2903f318ef452e7706b627a9f4bf6bc21cd6e72ba858c14c57d92a2136a"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/01_runtime.png",
+    "bytes": 257225,
+    "sha256": "ffbf2d8ed59e5bfd8cda33954a9e50ad6f98a8a83563e775b3355d68a31ea0b5"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/01_runtime.svg",
+    "bytes": 198249,
+    "sha256": "18f67ef2c5b71f6ddaaa473c33bc9a3244ce71c1cc907b368ff8773536c6bf2b"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/02_comparisons.png",
+    "bytes": 292746,
+    "sha256": "692b4f531275a0101e1101cbf6d6be39a2d768352ca67cf78b0327b55ff3a345"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/02_comparisons.svg",
+    "bytes": 177739,
+    "sha256": "89160bc13a6ced6af33d368ab89f38e3713b1634b0d3c2f807bd1b1b1c5d4316"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/03_memory.png",
+    "bytes": 240943,
+    "sha256": "c24c1b111a3d018c42b5f3fd1f056805fcda029c655d5e5ead25bd0050933374"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/03_memory.svg",
+    "bytes": 179618,
+    "sha256": "6527bcfd9cadcf9043a42de3a802d1426b1f85bcbe1874aa4309d0eced524c38"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/04_runtime_scaling.png",
+    "bytes": 137034,
+    "sha256": "e8ee87ad958796fddd0b7b1278f0d8fccdd35827f5bc2de2fd05e7c9f1569d3a"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/04_runtime_scaling.svg",
+    "bytes": 99028,
+    "sha256": "b978811019789e917354904f4ab36a8a384a3ddf691a4580fc9bc22f9b599e72"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/analysis_data.csv",
+    "bytes": 10540,
+    "sha256": "de845ea7a890fd6b9a651e5280a3c019e1516f4226d0c284d7a133724d150252"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/analysis_report.html",
+    "bytes": 1245290,
+    "sha256": "d22400dadd96cd97e82ff33820197028fe31d7fe92e7dee428cceae1a7e42da5"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/analysis_report.md",
+    "bytes": 6032,
+    "sha256": "50494234c24d9f23b849111877bc60caf54412d17af8b24a53d1e9e43a196446"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/normalized_comparisons.csv",
+    "bytes": 743,
+    "sha256": "b7dc39b377197c3315daa0b99eaacafdaf1a53f8043bedd7890ebf93a9bca8ec"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/quality_issues.csv",
+    "bytes": 1798,
+    "sha256": "3511d9c7e1e88c17e07a4e2006eb42bdc5815f6f8f77eb92b7ef6a0b50b47ec2"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/runtime_floor_counts.csv",
+    "bytes": 173,
+    "sha256": "d5f21047e1598124f8c14f0d4646088817c210c9cf9d48dab832da103e167104"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/runtime_scaling.csv",
+    "bytes": 1127,
+    "sha256": "081cba811e8a5c8b17b494edd021bba03b6a70e66c9e46ee68c26b2486dfcff7"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/summary.csv",
+    "bytes": 8518,
+    "sha256": "5d61150abf0611b3792cef298b3e60583923461fada63abefb794e07e2094a88"
+  },
+  {
+    "condition": "without_agents",
+    "path": "experiments/question3/without_agents/outputs/validation.json",
+    "bytes": 1298,
+    "sha256": "c6ccaaa5847ebe1676946aeda704c91728edeb2e34f7aa2bfeeda6436ee28189"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/AGENTS.md",
+    "bytes": 5287,
+    "sha256": "778718cf443a86dce0331d72a2811b6a18045be799e856f36e9f477713b5a0ae"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/README.md",
+    "bytes": 2752,
+    "sha256": "9ea419a5cfd116a1dbb8ccd48d8e5651577245f5800b8bd1bf35613d22d198b8"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/data/processed/group_summary_v1.csv",
+    "bytes": 5128,
+    "sha256": "77034426b13c3a21633271d36d35dd73b0849090822071184f6659f2b7512bd8"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/data/processed/observations_v1.csv",
+    "bytes": 21189,
+    "sha256": "89eb03585600adc979731f5b1cd51a1dd6e23f8e5dd71d89fb3efe6b060c6b37"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/data.csv",
+    "bytes": 10328,
+    "sha256": "8285b2903f318ef452e7706b627a9f4bf6bc21cd6e72ba858c14c57d92a2136a"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/figures/comparison_trends_v1.png",
+    "bytes": 208134,
+    "sha256": "a407e4f892dcd52688a3810f4760abd5dc885e02cac9b140360f62461f800204"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/figures/memory_trends_v1.png",
+    "bytes": 218383,
+    "sha256": "9c5c0c7070f1bac434a621e0d5a2275ffb1fcc86d9b163b30c99e9f76804a918"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/figures/runtime_trends_v1.png",
+    "bytes": 201291,
+    "sha256": "fcd093e4b428f3104f8b704c6da3569ef6a48b2d849f13d4b20a2d5b93eb3254"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/reports/analysis_v1.html",
+    "bytes": 844379,
+    "sha256": "5f6b5c1aa96cf2f3ff808a777f836e769c840aa05a9f8c5cbdb357b84b6172aa"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/reports/analysis_v1.md",
+    "bytes": 6504,
+    "sha256": "ae3689525ad67807e56d7ddb1ebf3349525cfb71d487be2789bca2a9706db3a5"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/reports/data_quality_v1.json",
+    "bytes": 1774,
+    "sha256": "8c724e1150237a18a048180209a08690b3e7845429470ded739df504c7bb5e53"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/reports/validation_v1.json",
+    "bytes": 866,
+    "sha256": "a076554420779fdd056a47a8c50d86ad1b6394514220d9a080970309f8275a00"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/outputs/reports/visual_review_v1.json",
+    "bytes": 572,
+    "sha256": "557709502925d58bd4274edd3f6d4c7515d51d3449765048674c343b2fa57d9c"
+  },
+  {
+    "condition": "with_agents",
+    "path": "experiments/question3/with_agents/src/analyze.py",
+    "bytes": 19225,
+    "sha256": "73f5051b9f0684882f2f3b6f676b53ab0777e57910b7d2399ee9b11d951aa258"
+  }
+]

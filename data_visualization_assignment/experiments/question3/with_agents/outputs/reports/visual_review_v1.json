@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "visual_inspection": "All three PNGs opened with view_image and inspected: readable English labels, complete titles and notes, no material clipping or overlaps, consistent colors/markers, outlier visible.",
+  "source_sha256": "8285b2903f318ef452e7706b627a9f4bf6bc21cd6e72ba858c14c57d92a2136a",
+  "source_matches_initial_hash": true,
+  "html_embedded_png_count": 3,
+  "html_external_asset_references": 0,
+  "browser_rendering_test": "not performed; static HTML only",
+  "processed_rows": 224,
+  "summary_groups": 28,
+  "pillow_version": "12.3.0"
+}

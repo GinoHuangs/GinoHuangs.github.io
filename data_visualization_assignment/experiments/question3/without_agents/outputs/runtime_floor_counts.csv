@@ -1,0 +1,8 @@
+algorithm,input_size,runtime_equals_0_05_count
+Linear_Search,100,5
+Linear_Search,500,1
+Merge_Sort,100,4
+Merge_Sort,500,1
+Quick_Sort,100,4
+Quick_Sort,500,2
+Quick_Sort,1000,1

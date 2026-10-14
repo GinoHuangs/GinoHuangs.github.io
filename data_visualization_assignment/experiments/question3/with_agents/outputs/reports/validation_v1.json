@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "source_unchanged": true,
+  "summary_groups": 28,
+  "counts_and_medians_recomputed": true,
+  "png_decode_checks": [
+    {
+      "file": "outputs/figures/runtime_trends_v1.png",
+      "width": 2340,
+      "height": 1007,
+      "bytes": 201291,
+      "format": "PNG"
+    },
+    {
+      "file": "outputs/figures/memory_trends_v1.png",
+      "width": 2340,
+      "height": 1007,
+      "bytes": 218383,
+      "format": "PNG"
+    },
+    {
+      "file": "outputs/figures/comparison_trends_v1.png",
+      "width": 2340,
+      "height": 1007,
+      "bytes": 208134,
+      "format": "PNG"
+    }
+  ],
+  "html_self_contained": true,
+  "interactive_charts": "not used",
+  "visual_inspection": "pending separate view_image inspection",
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  }
+}

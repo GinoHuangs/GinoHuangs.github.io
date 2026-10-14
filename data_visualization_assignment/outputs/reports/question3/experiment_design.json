@@ -1,0 +1,38 @@
+{
+  "data_file": "1-01_AlgorithmBenchmark_matplotlib.csv",
+  "data_sha256": "8285b2903f318ef452e7706b627a9f4bf6bc21cd6e72ba858c14c57d92a2136a",
+  "agents_sha256": "778718cf443a86dce0331d72a2811b6a18045be799e856f36e9f477713b5a0ae",
+  "prompt": "請分析 data.csv 中的重要趨勢，並製作適合的資料視覺化。",
+  "execution_order": [
+    "without_agents",
+    "with_agents"
+  ],
+  "shared_data_identical": true,
+  "planned_difference": "Only with_agents contains the assignment AGENTS.md",
+  "limitations": [
+    "One run per condition cannot establish a general causal effect.",
+    "Agents can follow general model defaults even without project AGENTS.md."
+  ],
+  "session_design": "Two fresh agents with fork_turns=none, run sequentially; both receive the same task and operational boundaries, with only their working-directory paths differing.",
+  "common_operational_boundaries": [
+    "Read only the assigned project directory, not other experiments or conversation history.",
+    "Do not use subagents or operate GitHub.",
+    "Do not modify input data.csv.",
+    "Execute the analysis and retain code and outputs; report commands and validation.",
+    "Home directory is read-only; caches may use /tmp."
+  ],
+  "without_agents_completed": true,
+  "without_agents_validation": "experiments/question3/without_agents/outputs/validation.json",
+  "rule_assignment": {
+    "without_agents": "No AGENTS.md in its original assigned directory or experiment parent.",
+    "with_agents": "Exact copy of the existing assignment AGENTS.md."
+  },
+  "publication_note": "Archived directories inside GitHub are evidence snapshots, not the original experimental roots. Root project instructions can apply if users rerun them directly inside the repository.",
+  "prompt_reduction_measurement": "Both runs receive the same short prompt; no separate trial varying prompt length was performed.",
+  "with_agents_completed": true,
+  "executed_in_order": true,
+  "both_data_hashes_match": true,
+  "with_agents_rules_match_original": true,
+  "original_agents_unchanged": true,
+  "with_agents_validation": "experiments/question3/with_agents/outputs/reports/validation_v1.json"
+}
